@@ -1,3 +1,4 @@
+TrueCrypt Volume Format Specification:
 
 Offset (bytes);Size (bytes);Encryption Status;Description
 0 ;64;Unencrypted§;Salt
