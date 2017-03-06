@@ -1,3 +1,14 @@
+
+Offset (bytes);Size (bytes);Encryption Status;Description
+0 ;64;Unencrypted§;Salt
+64; 4;   Encrypted;ASCII string "TRUE"
+68; 2;   Encrypted;Volume header format version (5)
+70; 2;   Encrypted;Minimum program version required to open the volume
+72; 4;   Encrypted;CRC-32 checksum of the (decrypted) bytes 256-511
+76;16;   Encrypted;Reserved (must contain zeroes)
+
+
+
 TRUECRACK v3.6
 --------------
 website: https://github.com/lvaccaro/truecrack
